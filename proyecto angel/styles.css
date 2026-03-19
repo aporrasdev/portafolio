@@ -1,0 +1,89 @@
+body {
+  background-color: #0f172a;
+  color: #e2e8f0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #020617;
+}
+
+/* HERO */
+.hero {
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+/* SECCIONES */
+.seccion {
+  padding: 60px 20px;
+}
+
+.seccion-clara {
+  background-color: #1e293b;
+  padding: 60px 20px;
+}
+
+/* BOTON */
+.btn-custom {
+  background-color: #38bdf8;
+  color: black;
+  border-radius: 25px;
+  padding: 10px 20px;
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: #0ea5e9;
+}
+
+/* ICONOS */
+.icono {
+  font-size: 40px;
+  color: #38bdf8;
+  margin-bottom: 10px;
+}
+
+/* PROYECTOS */
+.proyecto-card {
+  background-color: #1e293b;
+  border: none;
+  transition: transform 0.3s;
+}
+
+.proyecto-card:hover {
+  transform: scale(1.05);
+}
+
+/* FOOTER */
+footer {
+  padding: 30px;
+  background-color: #020617;
+}
+
+.redes i {
+  font-size: 25px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+/* FOTO PRINCIPAL */
+.foto-perfil {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 3px solid #38bdf8;
+}
+
+/* IMAGEN PORTADA */
+.img-portada {
+  width: 300px;
+  max-width: 100%;
+  margin-top: 20px;
+}
